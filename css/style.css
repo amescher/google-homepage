@@ -1,0 +1,97 @@
+
+
+/*Navigation Bar Work */
+.nav, .footer {
+	position: absolute;
+	font-family: Verdana;
+}
+
+.nav {
+	right: 20px;
+}
+
+.footer {
+	right: 0px;
+}
+
+.norm_button, .apps_button, .signin_button, .foot_button {
+	display: inline-block;
+	width: auto;
+	padding: 7.5px;
+	height: 20px;
+}
+
+.norm_button:hover, .apps_button:hover, .signin_button:hover, .foot_button:hover {
+	text-decoration: underline;
+
+
+}
+
+.norm_button, .apps_button, .signin_button {
+	font-size: 1em;
+	color: grey;
+}
+
+.signin_button {
+	background-color: #B22222;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* Middle Work */
+
+.midpage {
+	display: block;
+	margin: auto;
+	width: 700px;
+	padding-top: 120px;
+}
+
+.midpage img {
+	max-width: 400px;
+	margin: auto;
+	display: block;
+}
+
+.midpage form input[type=text] {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+.midpage form input[type=submit] {
+	width: 20%;
+	display: inline-block;
+	
+}
+
+.midpage .submit {
+	margin: 10px auto;
+	width: 100%; 
+	text-align: center;
+}
+
+.midpage p {
+	text-align: center;
+	font-size: .9em;
+	margin-top: 40px;
+}
+
+/* Footer Work */
+
+.footer, .footer a {
+	font-size: .9em;
+	background-color: lightgrey;
+	color: black;
+	width: 100%;
+	bottom: 0;
+}
+
+#right_footer {
+	margin-right: 30px;
+	float: right;
+}
+
+#left_footer {
+	float: left;
+	margin-left: 30px;
+}
